@@ -1,0 +1,67 @@
+.dashboard {
+    display: grid;
+    grid-template-areas:
+        "header  header  header"
+        "sidebar main    widget1"
+        "sidebar main    widget2"
+        "footer  footer  footer";
+    grid-template-columns: 200px 1fr 300px;
+    grid-template-rows: 80px 200px 200px 60px;
+    gap: 15px;
+    min-height: 600px;
+}
+
+.dash-header {
+    grid-area: header;
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.dash-sidebar {
+    grid-area: sidebar;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.dash-main {
+    grid-area: main;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.dash-widget1 {
+    grid-area: widget1;
+    background-color: #4caf50;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.dash-widget2 {
+    grid-area: widget2;
+    background-color: #2196f3;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.dash-footer {
+    grid-area: footer;
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
