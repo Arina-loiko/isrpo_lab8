@@ -1,0 +1,16 @@
+*.pdf
+.claude/
+__pycache__/
+*.pyc
+*.pyo
+node_modules/
+.env
+*.env
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+*.swp
+*.swo
+*.log
+*.tmp
